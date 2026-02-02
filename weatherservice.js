@@ -15,11 +15,7 @@ class WeatherService {
       if (temp > 40) {
         return "Scorching";
 
-      } else if (temp > -20) {
-        return "Bracing";
-      } else {
-        return "Freezing";
-      }
+
     }
   
     static getRandomInt(min, max) {
